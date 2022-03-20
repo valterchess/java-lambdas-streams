@@ -1,4 +1,4 @@
-package main.java.cap3;
+package main.java.cap3.runnable;
 
 public class TestInterfaceRunnable {
 
