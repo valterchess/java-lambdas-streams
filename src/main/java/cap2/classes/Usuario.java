@@ -34,4 +34,13 @@ public class Usuario {
     public void setModerador(boolean moderador) {
         this.moderador = moderador;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", pontos=" + pontos +
+                ", moderador=" + moderador +
+                '}';
+    }
 }
